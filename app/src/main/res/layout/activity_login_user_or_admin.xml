@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_User_orAdmin"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/user"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Yatra"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/btnUserSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User SignIn"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            />
+        <Button
+            android:id="@+id/btnAdminSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin SignIn"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

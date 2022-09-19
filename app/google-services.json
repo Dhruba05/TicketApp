@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525144190107",
+    "project_id": "yatra-55c42",
+    "storage_bucket": "yatra-55c42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525144190107:android:e1d4e10012e496a713ea3e",
+        "android_client_info": {
+          "package_name": "com.example.yatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525144190107-futgh7utlqjnbchpitnc0pmfmma2i4ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMcGU-FPlBNBEFH0WL1ZV5gGrIB31STKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525144190107-futgh7utlqjnbchpitnc0pmfmma2i4ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
